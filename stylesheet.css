@@ -1,0 +1,57 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 80%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+    
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#poster1 {
+    height:600px;
+    width:auto;
+    cursor: default;
+}
+
+    /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: default;
+}
+
+.modal-trigger{
+    position:absolute;
+    left:200px;
+    top:100px;
+    width:200px;
+}
+
+#myBtn {
+    position: absolute;
+    height:84px;
+    width: auto;
+    left:423px;
+    top: 655px;
+    cursor: default;
+}
