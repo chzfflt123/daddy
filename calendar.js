@@ -28,7 +28,7 @@ function newpage(setMonth, setDay){
     }
 
     // if(month >=setMonth && day>= setDay){
-        let href = "dates/"+wordMonth+setDay+".html";
+        let href = wordMonth+setDay+".html";
         console.log(href);
         window.location = href;
     // }
