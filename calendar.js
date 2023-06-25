@@ -14,6 +14,18 @@ function newpage(setMonth, setDay){
     if(setMonth==6){
         wordMonth = "June";
     }
+    if(setMonth==7){
+        wordMonth = "July";
+    }
+    if(setMonth==8){
+        wordMonth = "August";
+    }
+    if(setMonth==9){
+        wordMonth = "September";
+    }
+    if(setMonth==10){
+        wordMonth = "October";
+    }
 
     // if(month >=setMonth && day>= setDay){
         let href = wordMonth+setDay+".html";
