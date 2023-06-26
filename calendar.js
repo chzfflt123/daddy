@@ -27,12 +27,12 @@ function newpage(setMonth, setDay){
         wordMonth = "October";
     }
 
-    // if(month >=setMonth && day>= setDay){
+    if(month >=setMonth && day>= setDay){
         let href = wordMonth+setDay+".html";
         console.log(href);
         window.location = href;
-    // }
-    // else {
-    //     window.alert("Wait until "+wordMonth+" "+setDay+"th to click the button!");
-    // }
+    }
+    else {
+        window.alert("Wait until "+wordMonth+" "+setDay+"th to click the button!");
+    }
 }
