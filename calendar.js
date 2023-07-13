@@ -27,7 +27,12 @@ function newpage(setMonth, setDay){
         wordMonth = "October";
     }
 
-    if(month >=setMonth && day>= setDay){
+
+// month is before then date doesn't mater
+// if month is current, date matters
+
+    if((month>setMonth) || (month==setMonth && day>=setDay)){
+        console.log("date comparison okay");
         let href = wordMonth+setDay+".html";
         console.log(href);
         window.location = href;
